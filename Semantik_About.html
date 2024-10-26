@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantik_About</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: sans-serif;
+        }
+
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .background {
+            background-image: url('https://images.unsplash.com/photo-1677155875750-9eb42b39f4e5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100%; 
+            filter: blur(0px); 
+            position: fixed; 
+            width: 100%; 
+            z-index: -1; 
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .navbar .logo {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            font-size: 18px;
+            position: relative;
+        }
+
+        .navbar ul li a:hover,
+        .navbar ul li a.active {
+            color: #f5f5dc;
+        }
+
+        .navbar ul li a::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 2px;
+            background-color: #f5f5dc;
+            transition: width 0.3s;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+
+        .navbar ul li a:hover::after,
+        .navbar ul li a.active::after {
+            width: 100%;
+        }
+
+        
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+    </style>    
+</head>
+<body>
+    <div class="background"></div>
+    <nav class="navbar">
+        <img src="https://i.postimg.cc/8C989zdW/nams-01s.png" 
+                        alt="Logo gweh" width="70px" height="auto">
+        <ul>
+            <li><a href="Tugas_1.html"><strong>Tugas 1</strong></a></li>
+            <li><a href="Tugas_2.html"><strong>Tugas 2</strong></a></li>
+            <li><a href="Tugas_3.html"><strong>Tugas 3</strong></a></li>
+            <li><a href="#" class="active">𝄃𝄃 <strong>About</strong></a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1 align="center" style="color: rgb(45, 45, 45)">SALAM KENAL <br/> ──── ▪ ────</h1>
+    </br> 
+    <img src="https://ssr-hcm.topkarir.com/uploads/fix_logo.png" 
+                        alt="Logo kams" width="400px" height="auto">
+</br>
+        <h2 align="left" style="color: rgb(45, 45, 45)">TENTANG SAYA</h2>
+        <p align="left" style="color: rgb(45, 45, 45)"><strong>Nama:</strong> Jauhar Luthfi Setyo</p>
+        <p align="left" style="color: rgb(45, 45, 45)"><strong>NIM:</strong> 9044122007</p>
+        <p align="left" style="color: rgb(45, 45, 45)"><strong>Jurusan:</strong> DKV</p>
+</br>
+</br>
+        <h2 align="left" style="color: rgb(45, 45, 45)">DESKRIPSI</h2>
+        <p align="left" style="color: rgb(45, 45, 45)">
+            <i>Saya ingin berbagi hasil dari tiga tugas HTML yang telah saya kerjakan.</i> <br/>
+        </br> 
+            <strong >Tugas Pertama:</strong> Saya membuat tiga jenis gambar. Ada gambar biasa, gambar dengan border berwarna, dan gambar bulat menggunakan border-radius. Ini memberi tampilan yang menarik dan beragam.<br/>
+            <strong>Tugas Kedua:</strong> Saya membuat tabel yang berisi lima gambar. Setiap gambar diletakkan dalam sel tabel dengan deskripsi. Saya juga menambahkan beberapa gaya CSS untuk membuat tabel terlihat rapi.<br/>
+            <strong>Tugas Ketiga:</strong> Saya menyisipkan video ke dalam halaman web menggunakan elemen video.
+        </p>
+</br>
+</br>
+</br>
+        <div align="center" style="color: rgb(45, 45, 45)"><i><strong>Jauhar Luthfi Setyo.</strong> Oktober 2024<br/>
+            Copyright &copy; 2024</i></div>
+</br>
+</br>
+</br>
+</body>
+</html>
